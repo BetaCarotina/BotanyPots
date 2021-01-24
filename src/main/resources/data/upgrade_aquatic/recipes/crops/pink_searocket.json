@@ -10,7 +10,8 @@
         "item": "upgrade_aquatic:pink_searocket"
     },
     "categories": [
-        "dirt"
+        "dirt",
+        "sand"
     ],
     "growthTicks": 1200,
     "display": {
