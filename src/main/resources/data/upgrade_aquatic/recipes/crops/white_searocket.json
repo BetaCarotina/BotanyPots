@@ -1,0 +1,31 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "upgrade_aquatic:white_searocket"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "upgrade_aquatic:white_searocket"
+    },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "upgrade_aquatic:white_searocket"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "upgrade_aquatic:white_searocket"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}
