@@ -1,5 +1,11 @@
 {
     "type": "botanypots:crop",
+     "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
     "seed": {
         "item": "upgrade_aquatic:white_searocket"
     },
