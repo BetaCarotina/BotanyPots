@@ -1,0 +1,37 @@
+{
+    "type": "botanypots:crop",
+     "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ],
+    "seed": {
+        "item": "upgrade_aquatic:pink_searocket"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "upgrade_aquatic:pink_searocket"
+    },
+    "results": [
+        {
+            "chance": 0.75,
+            "output": {
+                "item": "upgrade_aquatic:pink_searocket"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "upgrade_aquatic:pink_searocket"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}
