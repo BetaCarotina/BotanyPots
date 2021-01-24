@@ -1,0 +1,40 @@
+{
+    "type": "botanypots:crop",
+        "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "berry_good"
+        }
+    ],
+    "seed": {
+        "item": "berry_good:sweet_berry_pips"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 800,
+    "display": {
+        "block": "minecraft:sweet_berry_bush",
+        "properties": {
+            "age": 3
+        }
+    },
+    "results": [
+        {
+            "chance": 0.95,
+            "output": {
+                "item": "minecraft:sweet_berries"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "berry_good:sweet_berry_pips"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}
